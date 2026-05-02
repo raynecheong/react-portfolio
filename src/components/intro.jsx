@@ -39,8 +39,17 @@ class Intro extends React.Component {
                   className="btn btn-primary btn js-scroll px-4"
                   href="#work"
                   role="button"
+                  style={{ marginRight: "12px" }}
                 >
-                  View My Projects
+                  View My Work
+                </a>
+
+                <a
+                  className="btn btn-outline-light btn js-scroll px-4"
+                  href="#contact"
+                  role="button"
+                >
+                  Let's Connect
                 </a>
               </p>
             </div>
