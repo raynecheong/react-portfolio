@@ -62,7 +62,7 @@ class Skills extends React.Component {
                     borderRadius: "18px",
                     background: "white",
                     boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
-                    borderTop: "4px solid ${group.color}",
+                    borderTop: '4px solid ${group.color}',
                     minHeight: "190px"
                   }}
                 >
