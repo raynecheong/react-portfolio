@@ -30,7 +30,7 @@ class Contact extends React.Component {
                 >
                   I’m currently a data science student exploring opportunities to
                   learn and grow. If you’d like to connect, share advice, or
-                  discuss potential opportunities, feel free to reach out.
+                  discuss potential opportunities, please feel free to reach out.
                 </p>
 
                 <div style={{ marginTop: "28px" }}>

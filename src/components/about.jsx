@@ -1,5 +1,6 @@
 import React from "react";
 import myImage from "../img/myImage.png";
+import profile from "../img/profile.png";
 
 class About extends React.Component {
   constructor() {
@@ -33,25 +34,31 @@ class About extends React.Component {
             <div className="col-sm-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-5">
                     <div className="row">
-                      <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
-                      >
+                      <div className="col-sm-12 text-center">
                         <div
                           className="about-img"
                           style={{ textAlign: "center" }}
                         >
                           <img
+                            src={profile}
                             className="img-fluid rounded b-shadow-a"
-                            alt=""
+                            alt="Profile"
+                            style={{
+                              width: "100%",
+                              maxWidth: "380px",
+                              height: "auto",
+                              objectFit: "cover",
+                              borderRadius: "16px",
+                              boxShadow: "0 12px 25px rgba(0,0,0,0.15)"
+                            }}
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-7">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
