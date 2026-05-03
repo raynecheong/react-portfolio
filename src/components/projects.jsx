@@ -111,7 +111,7 @@ class Projects extends React.Component {
                         padding: "7px 13px",
                         margin: "5px",
                         borderRadius: "18px",
-                        backgroundColor: project.colour + "18",
+                        backgroundColor: "#eef4ff",
                         color: project.colour,
                         fontSize: "12px",
                         fontWeight: "600",

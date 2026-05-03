@@ -37,7 +37,7 @@ class Skills extends React.Component {
         icon: "🗣️",
         category: "Professional Strengths",
         color: "#ff6b6b",
-        items: ["Communication", "Teamwork", "Public Speaking", "Problem Solving"]
+        items: ["Communication", "Teamwork", "Public Speaking", "Problem Solving", "Adaptability"]
     }
     ];
 
@@ -62,7 +62,7 @@ class Skills extends React.Component {
                     borderRadius: "18px",
                     background: "white",
                     boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
-                    borderTop: '4px solid ${group.color}',
+                    borderTop: `4px solid ${group.color}`,
                     minHeight: "190px"
                   }}
                 >

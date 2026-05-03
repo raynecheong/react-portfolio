@@ -24,9 +24,9 @@ class Intro extends React.Component {
                       "Exploring AI and Analytics",
                       "Turning Data into Insights"
                     ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
+                    typeSpeed={60}
+                    backDelay={1500}
+                    backSpeed={25}
                     loop
                   />
                 </strong>
