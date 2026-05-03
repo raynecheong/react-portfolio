@@ -23,6 +23,9 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
+import Education from "./components/education";
+import Experience from "./components/experience";
+import Activities from "./components/activities";
 import Skills from './components/skill.jsx';
 import Projects from './components/projects.jsx';
 import Contact from './components/contact.jsx';
@@ -36,6 +39,9 @@ ReactDOM.render(
         <Navbar />
         <Intro />
         <About />
+        <Education />
+        <Experience />
+        <Activities />
         <Skills />
         <Projects />
         <Contact />
