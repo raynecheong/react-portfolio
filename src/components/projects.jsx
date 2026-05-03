@@ -26,7 +26,7 @@ class Projects extends React.Component {
         title: "Machine Learning Model",
         colour: "#00b894",
         description:
-          "Developed machine learning models to analyze data, identify patterns, and evaluate model performance using appropriate metrics. The project strengthened my understanding of data preparation, model training and validation.",
+          "Developed machine learning models to analyse data, identify patterns, and evaluate model performance using appropriate metrics. The project strengthened my understanding of data preparation, model training and validation.",
         tools: ["Python", "Machine Learning", "Model Evaluation"],
       },
     ];
@@ -44,27 +44,26 @@ class Projects extends React.Component {
 
           {projects.map((project, index) => (
             <div
+              className="row align-items-center"
               key={index}
               style={{
-                display: "flex",
-                gap: "28px",
-                alignItems: "stretch",
                 marginBottom: "36px",
                 borderRadius: "24px",
                 background: "white",
                 boxShadow: "0 14px 32px rgba(0,0,0,0.08)",
-                borderLeft: `6px solid ${project.colour}`,
+                borderTop: `6px solid ${project.colour}`,
                 overflow: "hidden",
               }}
             >
               <div
+                className="col-12 col-md-6"
                 style={{
-                  flex: "0 0 48%",
-                  minHeight: "330px",
+                  minHeight: "300px",
                   backgroundColor: project.colour + "18",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  padding: "18px",
                 }}
               >
                 {project.image ? (
@@ -73,9 +72,9 @@ class Projects extends React.Component {
                     alt={project.title}
                     style={{
                       width: "100%",
-                      height: "100%",
+                      maxHeight: "330px",
                       objectFit: "contain",
-                      padding: "18px",
+                      borderRadius: "14px",
                     }}
                   />
                 ) : (
@@ -84,19 +83,22 @@ class Projects extends React.Component {
               </div>
 
               <div
+                className="col-12 col-md-6"
                 style={{
-                  flex: "1",
-                  padding: "34px",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
+                  padding: "30px",
                 }}
               >
                 <h2 className="w-title" style={{ marginBottom: "16px" }}>
                   {project.title}
                 </h2>
 
-                <p style={{ fontSize: "15px", color: "#4a4a4a", lineHeight: "1.8" }}>
+                <p
+                  style={{
+                    fontSize: "15px",
+                    color: "#4a4a4a",
+                    lineHeight: "1.7",
+                  }}
+                >
                   {project.description}
                 </p>
 
