@@ -8,19 +8,19 @@ class Activities extends React.Component {
         icon: "🎓",
         sections: [
           {
-            title: "Orion",
+            title: "Orion Special Interest Group",
             items: [
               {
-                name: "Red Camp 2024 – MC",
-                desc: "Gave secondary school students a brief introduction to the School of ICT and its programmes.",
+                name: "Open House 2026 – Volunteer",
+                desc: "Engaged with secondary school students and shared more about ICT courses and student life.",
               },
               {
                 name: "Red Camp 2025 – AI Demonstrator",
                 desc: "Demonstrated how AI can be used in everyday and real-world contexts.",
               },
               {
-                name: "Open House 2026 – Volunteer",
-                desc: "Engaged with secondary school students and shared more about ICT courses and student life.",
+                name: "Red Camp 2024 – MCEE Speaker",
+                desc: "Gave secondary school students a brief introduction to the School of ICT and its programmes.",
               },
             ],
           },

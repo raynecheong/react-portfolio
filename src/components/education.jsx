@@ -6,7 +6,7 @@ class Education extends React.Component {
       {
         title: "Diploma in Data Science",
         school: "Ngee Ann Polytechnic",
-        year: "2023 – Present",
+        year: "2024 – 2027",
         icon: "🎓",
         description:
           "Focused on data analytics, machine learning and visualisation. Gained hands-on experience through coursework and projects involving Python, SQL and data-driven problem solving.",
@@ -14,7 +14,7 @@ class Education extends React.Component {
       {
         title: "Beatty Secondary School",
         school: "Singapore",
-        year: "2019 – 2022",
+        year: "2020 – 2023",
         icon: "🏫",
         description:
           "Recognized for academic performance and all-round development.",

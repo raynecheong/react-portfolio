@@ -21,7 +21,7 @@ class Intro extends React.Component {
                   <Typed
                     strings={[
                       "Data Science Student",
-                      "Exploring AI & Analytics",
+                      "Exploring AI and Analytics",
                       "Turning Data into Insights"
                     ]}
                     typeSpeed={80}
