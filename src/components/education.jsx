@@ -13,6 +13,9 @@ class Education extends React.Component {
         color: "#0078ff",
         colorLight: "#e8f4ff",
         description: "Focused on data analytics, machine learning and visualisation. Gained hands-on experience through coursework and projects involving Python, SQL and data-driven problem solving.",
+        certifications: [
+          { name: "Professional Scrum Master™ I (PSM I)", issuer: "Scrum.org", issued: "Nov 2025" },
+        ],
       },
       {
         title: "Beatty Secondary School",
@@ -51,6 +54,20 @@ class Education extends React.Component {
                   <p style={{ marginBottom: "4px", color: item.color, fontWeight: 600 }}>{item.school}</p>
                   <span style={{ display: "inline-block", fontSize: "12px", color: item.color, background: item.colorLight, borderRadius: "999px", padding: "2px 12px", marginBottom: "10px" }}>{item.year}</span>
                   <p style={{ lineHeight: "1.6", color: "#4a4a4a" }}>{item.description}</p>
+                  {item.certifications && (
+                    <div style={{ marginTop: "14px" }}>
+                      <p style={{ fontSize: "11px", fontWeight: 700, color: item.color, textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: "8px" }}>Certifications</p>
+                      {item.certifications.map((cert, i) => (
+                        <div key={i} style={{ display: "flex", alignItems: "center", gap: "10px", background: item.colorLight, borderRadius: "12px", padding: "10px 14px", marginBottom: "6px" }}>
+                          <span style={{ fontSize: "20px" }}>📜</span>
+                          <div>
+                            <p style={{ margin: 0, fontWeight: 700, fontSize: "14px", color: "#1e1e1e" }}>{cert.name}</p>
+                            <p style={{ margin: 0, fontSize: "12px", color: "#666" }}>{cert.issuer} · Issued {cert.issued}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                   {item.awards && (
                     <ul style={{ marginTop: "10px", color: "#555" }}>
                       {item.awards.map((award, i) => (

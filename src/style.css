@@ -994,3 +994,13 @@ BUTTON
     bottom: 15px;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500&display=swap');
+
+.subtitle-a {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #6b7280;
+  font-weight: 400;
+  line-height: 1.6;
+}
